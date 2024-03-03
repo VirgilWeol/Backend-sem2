@@ -28,7 +28,7 @@ app.get('/users/:name', (req, res) => {
 app.use((req, res) => {
     res.status(404).json({
         status: "Error",
-        message: "Resource tidak ditemukan",
+        message: "Resource tidak    ditemukan",
     })
 })
 
