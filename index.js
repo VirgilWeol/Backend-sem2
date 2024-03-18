@@ -69,7 +69,6 @@ app.put("/students/:id", async (req, res) => {
     }
 })
 
-// Exe7. Delete Student by ID
 app.delete("/students/:id", async (req, res) => {
     try{
         const result = await db.query(
@@ -85,7 +84,6 @@ app.delete("/students/:id", async (req, res) => {
     }
 })
 
-// Exe7. Get student by ID
 app.get("/students/:id", async (req, res) => {
     try{
         const result = await db.query(
