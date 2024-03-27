@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "cors": "^2.8.5",
+    "db": "^6.0.1",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.11.0"
+  }
+}
